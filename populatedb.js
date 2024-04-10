@@ -21,7 +21,7 @@ const main = async () => {
 
         await storyModel.deleteMany();
         console.log("stories empty");
-        await createAllStories(users);
+        await createAllStories(members);
         console.log("stories added");
 
         console.log("success");
