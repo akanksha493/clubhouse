@@ -110,7 +110,7 @@ router.post("/deleteStory/:id", async (req, res, next)=>{
 router.get("/joinClub", (req, res, next) => {
     res.render("join-club", {user: req.user});
 });
-router.post("/join-club", async (req, res, next) => {
+router.post("/joinClub", async (req, res, next) => {
     try {
         if(req.body.scode===process.env.SCODE){
             await userModel.findByIdAndUpdate(req.user.id, {isMember: true});
