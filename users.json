@@ -1,0 +1,31 @@
+[
+    {
+        "fname": "Dmitri",
+        "lname": "Menloe",
+        "username": "dm@gmail.com",
+        "password": "dm12",
+        "isMember": true,
+        "isAdmin": true
+    },
+    {
+        "fname": "Ali",
+        "lname": "Dimmack",
+        "username": "ali@gmail.com",
+        "password": "45ad"
+    },
+    {
+        "fname": "Cindy",
+        "lname": "Nolan",
+        "username": "cindyn@gmail.com",
+        "password": "739",
+        "isMember": true
+    },
+    {
+        "fname": "Hagrid",
+        "lname": "Holmes",
+        "username": "hh@gmail.com",
+        "password": "hh98",
+        "isMember": true,
+        "isAdmin": true
+    }
+]
