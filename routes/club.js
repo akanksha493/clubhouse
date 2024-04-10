@@ -114,6 +114,7 @@ router.post("/joinClub", async (req, res, next) => {
     try {
         if(req.body.scode===process.env.SCODE){
             await userModel.findByIdAndUpdate(req.user.id, {isMember: true});
+            redirect("/")
         }else{
             throw new Error("wrong code");
         }
