@@ -57,7 +57,7 @@ router.post(
         await userModel.create({
             fname: req.body.fname,
             lname: req.body.lname,
-            username: req.body.username,
+            username: req.body.email,
             password: hashedPassword
         });
     });
